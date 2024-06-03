@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest",
+    "test": "react-scripts test",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
