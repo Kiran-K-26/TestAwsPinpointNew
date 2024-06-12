@@ -8,7 +8,9 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint.",
-    "build": "react-scripts build && mkdir -p web-build && cp -r build/* web-build/"
+    "build-android": "react-native run-android --variant=release",
+    "build-ios": "react-native run-ios --configuration Release",
+    "build": "npm run build-android && npm run build-ios"
   },
   "dependencies": {
     "@aws-amplify/react-native": "^1.1.1",
